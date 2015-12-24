@@ -86,3 +86,6 @@ Boost.Range.Adaptorsのfilteredを特殊化している為filteredを利用していますが、boos
 
 これはかなり実験的な実装となっており、実装方法はPStade.Ovenのoven::sortedと同じなのですが、boost::iterator_range生成時にもととなるRangeをshared_ptrで保持する為、高コストな処理になっています、面倒ではありますが、一端vector化し、std::sortをした方が高速です。
 
+# LICENSE
+
+Boost Software License
